@@ -1,0 +1,76 @@
+What does your application do? Please be as detailed as possible, and feel free to include links to image or video examples.
+
+Corona News provides up to date live statistics of the Coronavirus epidemic to users that invite it to its server. The images on its discord bot list profile (https://top.gg/bot/690024532853129292) explain in a visual manner how this data is displayed to the end user. These include, but are not limited to, voice channels automatically updating to show various statistics, discord message embeds arranged in a way that clearly details the numbers of such statistics on commands run, etc.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Data Collection
+Tell us more about the data you store and process from Discord.
+
+WHAT DISCORD DATA DO YOU STORE?
+
+Corona News, at the time of writing, stores data for 463 discord servers. This data includes information about how to operate on users' individual servers based on their preferences and the IDs of channels that need to be updated for the voice statistics described earlier as one of the integral features. This also includes the IDs of category channels that the bot creates in order to separate various countries' statistics.
+
+Other information users may have about their server is the prefix on such server. This is nothing more than a different way to use the bot as they would like - the prefix being what must be written before a command for the bot to recognise it as a command.
+
+Corona News does not store any user data tied to any users' ID.
+
+
+FOR WHAT PURPOSE(S) DO YOU STORE IT?
+
+Voice Statistic Updates - This data is necessary for the bot to know which channels to rename for the live statistics through voice channels. only the IDs of the channels are stored as well as other information not linked to Discord such as the time they were updated, the specific country the data is for, and the statistic to update.
+
+Custom server prefix - This data is necessary for the bot to recognise commands that have a custom prefix set by the owner of a server. e.g ">help" is an example of a command that a user may use if they changed the prefix to ">". Commands would not work if this data wasn't stored.
+
+
+FOR HOW LONG DO YOU STORE IT?
+
+In general, Corona News stores data indefinitely until it is removed from a server. There are specific exceptions:
+- If the prefix is set back to the default by the server owner, the prefix data is destroyed as it is no longer needed.
+
+- If channels that are used to set voice statistics are deleted their data is also destroyed.
+Other than these cases, data is stored for as long as the server owner wishes.
+
+
+WHAT IS THE PROCESS FOR USERS TO REQUEST DELETION OF THEIR DATA?
+
+No personal data tied to user IDs is stored on Corona News, however if server owners would like to remove the data on their server they need not file a request but just remove the bot from their server and the data will automatically be deleted as it is not needed anymore. 
+
+If server owners would like to limit themselves to only the default prefix and commands that don't need data, they can use the ->voicestats command, enter "5", and all channels Corona news uses for updates will be deleted along with the data corresponding to them. Further setting the prefix back to the default will delete all data on the server without needing to remove the bot from the server. Changing the prefix or using voice statistics again will store data for the server once again.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Infrastructure
+Tell us more about your application's infrastructure and your team's security practices.
+
+WHAT SYSTEMS AND INFRASTRUCTURE DO YOU USE?
+Both of my bots over 100 servers, aswell as the several others below 100 servers, run on my local server with these specs:
+
+OS - Windows 10 
+MEMORY - 4GB (Corona News tends to use ~401MB)
+CPU - Intel(R) Celeron(R) CPU N2840 @ 2.16Ghz (Dual core)
+
+However in the future, and possibly already done by the time this is being read through, my bots including Corona News will be migrated to a new server I own, with the following specs: 
+
+OS - To be decided, either Debian Linux or Windows 10
+MEMORY - 8GB
+CPU - AMD Phenom II Processor (4 cores)
+
+Corona News uses the discord.js API wrapper for connecting to Discord.
+At the time of writing, discord.js is Version 12.1.1
+
+
+HOW HAVE YOU SECURED ACCESS TO YOUR SYSTEMS AND INFRASTRUCTURE?
+
+Both the current server and the server the bots will be migrated to are constantly secured by a strong password when not in use. All server data Corona News stores is on this server and cannot be accessed without this password. The data stored for Corona News is hardly sensisitve either; the only data connected to Discord being channel IDs.
+My PC I use to code also has a direct connection to the server files through a LAN connection - this computer is also protected by a similar-strength password when not in use.
+
+
+HOW CAN USERS CONTACT YOU WITH SECURITY ISSUES?
+
+I have made my users aware through a new command that they can contact me directly through my email at Rubix9006@gmail.com should that be needed.
+A simpler approach would be to just DM the bot. DMs are forwarded to a place where I can see them and easily reply to them. My support team uses this to help users with using the bot but can also direct users to me for security issues.
+
+
+DOES YOUR APPLICATION UTILIZE OTHER THIRD-PARTY AUTH SERVICES OR CONNECTIONS? IF SO, WHICH, AND WHY?
+Corona News does not use any third party authentication services or connections.

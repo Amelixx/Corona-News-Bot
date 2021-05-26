@@ -1,0 +1,26 @@
+{
+    "Command Usage": {
+        "total": 30068,
+        "countrydata": 19584,
+        "stats": 1957,
+        "top": 759,
+        "prefix": 644,
+        "eval": 247,
+        "help": 3237,
+        "links": 190,
+        "voicestats": 1803,
+        "reply": 658,
+        "send": 142,
+        "state": 699,
+        "precautions": 73,
+        "votereminder": 21,
+        "renew": 54
+    },
+    "support": [
+        "548816698401226762",
+        "286756561848762378",
+        "257482333278437377",
+        "97238312355364864"
+    ],
+    "lastDM": "323120906970857474"
+}

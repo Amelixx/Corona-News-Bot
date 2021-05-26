@@ -1,0 +1,14 @@
+{
+    "defaultPrefix": "->",
+    "token": "",
+    "DBLtoken": "",
+    "developerIDs": [
+        "97238312355364864"
+    ],
+
+    "guildCountChannel": "689734606731214860",
+    "guildLogChannel": "689739004437987371",
+
+    "memberLogChannel": "693926932475150426",
+    "dmLogChannel": "693949767331479653"
+}
